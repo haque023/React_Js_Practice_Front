@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import '../Student/AddStudent.cs'
+import '../Student/AddStudent.css'
 import { Container, Col, Form, Row, FormGroup, Label, Input, Button } from 'reactstrap';
 
 class AddStudent extends React.Component {
@@ -40,7 +40,7 @@ class AddStudent extends React.Component {
     }
 
     render() {
-        return
+        return(
         <Container className="App">
             <h4 className="PagingHeading">
                 Enter Student Informatons
@@ -122,6 +122,7 @@ class AddStudent extends React.Component {
             </Form>
 
         </Container>
+        )
     }
 
 
